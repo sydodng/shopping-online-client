@@ -1,0 +1,10 @@
+const ActionTypes = {
+    FETCH_ALL: 'FETCH_ALL',
+    ADD_PRODUCT: 'ADD_PRODUCT',
+    DELETE_PRODUCT: 'DELETE_PRODUCT',
+    TOGGLE_PRODUCT: 'TOGGLE_PRODUCT',
+    UPDATE_PRODUCT: 'UPDATE_PRODUCT',
+    SHOW_ADD_FORM: 'SHOW_ADD_FORM',
+};
+
+export default ActionTypes;
