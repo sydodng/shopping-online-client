@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ProductForm from './ProductForm';
 import ProductActions from '../actions/ProductActions';
@@ -72,7 +73,6 @@ function Content(props) {
 function ActionButtonBar(props){
     return (
       <div id='nav'>
-        <button type="button" className="btn btn-link" onClick={() => props.showAllProducts() }>Back</button>
         <button type="button" className="btn btn-primary" onClick={() => props.onShowAddForm() }>Add</button>
       </div>
     );
